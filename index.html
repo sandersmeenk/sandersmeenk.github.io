@@ -437,33 +437,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="book">
+<body class="book toc2 toc-left">
 <div id="header">
 <h1>Honey Bee Knowledge Base</h1>
-</div>
-<div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div id="toc" class="toc">
-<div id="toctitle" class="title">Table of contents</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of contents</div>
 <ul class="sectlevel1">
 <li><a href="#intro">1. Intro</a></li>
 <li><a href="#contributing">2. Contributing</a></li>
 <li><a href="#references">3. References</a></li>
 <li><a href="#honey-bees">4. Honey bees</a>
 <ul class="sectlevel2">
-<li><a href="#male-and-female-castes">4.1. Male and female castes</a>
+<li><a href="#life-cycle">4.1. Life cycle</a>
 <ul class="sectlevel3">
 <li><a href="#queen">4.1.1. Queen</a></li>
 <li><a href="#worker">4.1.2. Worker</a></li>
 <li><a href="#drone">4.1.3. Drone</a></li>
 </ul>
 </li>
-<li><a href="#life-cycle">4.2. Life cycle</a></li>
-<li><a href="#communication">4.3. Communication</a>
+<li><a href="#communication">4.2. Communication</a>
 <ul class="sectlevel3">
-<li><a href="#dancing">4.3.1. Dancing</a></li>
-<li><a href="#pheromones">4.3.2. Pheromones</a></li>
+<li><a href="#dancing">4.2.1. Dancing</a></li>
+<li><a href="#pheromones">4.2.2. Pheromones</a></li>
 </ul>
 </li>
 </ul>
@@ -519,15 +514,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#splitting-the-colony">9. Splitting the colony</a>
 <ul class="sectlevel2">
-<li><a href="#split-preparation-queens-for-pennies">9.1. Split preparation: Queens for pennies</a></li>
-<li><a href="#split-five-frame-walk-away-split-with-queen-sweeper">9.2. Split: five frame walk away split - with queen (sweeper)</a></li>
-<li><a href="#split-five-frame-walk-away-split-with-queen-cell-sweeper">9.3. Split: five frame walk away split - with queen cell (sweeper)</a></li>
-<li><a href="#split-five-frame-cut-down-split-with-queen-flyer">9.4. Split: five frame cut down split - with queen (flyer)</a></li>
-<li><a href="#split-three-frame-swarm-control-split-with-queen-cells">9.5. Split: Three frame swarm control split - with queen cells</a></li>
+<li><a href="#queens-for-pennies">9.1. Queens for pennies</a></li>
+<li><a href="#walk-away-split-with-queen-5f">9.2. Walk away split with queen 5F</a></li>
+<li><a href="#walk-away-split-with-queen-cell-5f">9.3. Walk away split with queen cell 5F</a></li>
+<li><a href="#cut-down-split-with-queen-5f">9.4. Cut down split with queen 5F</a></li>
+<li><a href="#swarm-control-split-3f">9.5. Swarm control split 3F</a></li>
 </ul>
 </li>
 <li><a href="#different-types-of-queen-cells">10. Different types of queen cells</a></li>
-<li><a href="#single-brood-chamber-vs-multiple-brood-chambers">11. Single brood chamber vs multiple brood chambers</a></li>
+<li><a href="#single-brood-chamber-method">11. Single brood chamber method</a></li>
 <li><a href="#diseases">12. Diseases</a>
 <ul class="sectlevel2">
 <li><a href="#varroa">12.1. Varroa</a>
@@ -552,6 +547,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<!-- toc disabled -->
 </div>
 </div>
 <div class="sect1">
@@ -585,8 +585,33 @@ You can head over to <a href="https://github.com/sandersmeenk/honey-bee-knowledg
 <h2 id="references"><a class="anchor" href="#references"></a><a class="link" href="#references">3. References</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href="https://www.honeybeesuite.com" class="bare">https://www.honeybeesuite.com</a><br>
-<a href="https://scientificbeekeeping.com/" class="bare">https://scientificbeekeeping.com/</a></p>
+<p>Websites:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.honeybeesuite.com" class="bare">https://www.honeybeesuite.com</a><br></p>
+</li>
+<li>
+<p><a href="https://scientificbeekeeping.com/" class="bare">https://scientificbeekeeping.com/</a><br></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Books:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Beekeeping collection (Randy Stevens)</p>
+</li>
+<li>
+<p>Honey Bee Democracy (Thomas D. Seeley)</p>
+</li>
+<li>
+<p>Piping Hot Bees and Boisterous Buzz-Runners: 20 Mysteries of Honey Bee Behavior Solved (Thomas D. Seeley)</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -594,7 +619,10 @@ You can head over to <a href="https://github.com/sandersmeenk/honey-bee-knowledg
 <h2 id="honey-bees"><a class="anchor" href="#honey-bees"></a><a class="link" href="#honey-bees">4. Honey bees</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The honey bee colony has two main objectives:</p>
+<p>A honey bee colony generally contains one queen bee, a female; seasonally up to a few thousand drone (male) bees, and tens of thousands of female worker bees.<br></p>
+</div>
+<div class="paragraph">
+<p>The colony has two main objectives:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -602,15 +630,195 @@ You can head over to <a href="https://github.com/sandersmeenk/honey-bee-knowledg
 <p>To store enough food in their hive to survive dearths</p>
 </li>
 <li>
-<p>To propagate its genetics via drones and reproduction via swarming</p>
+<p>To propagate its genetics via drones and via swarming</p>
 </li>
 </ol>
 </div>
 <div class="sect2">
-<h3 id="male-and-female-castes"><a class="anchor" href="#male-and-female-castes"></a><a class="link" href="#male-and-female-castes">4.1. Male and female castes</a></h3>
+<h3 id="life-cycle"><a class="anchor" href="#life-cycle"></a><a class="link" href="#life-cycle">4.1. Life cycle</a></h3>
 <div class="paragraph">
-<p>A colony generally contains one queen bee, a female; seasonally up to a few thousand drone bees, or males and tens of thousands of female worker bees.</p>
+<p>The bee goes through different phases in its life cycle: egg, larva, pupa, adult bee.</p>
 </div>
+<div id="img-birth-cylce" class="imageblock">
+<div class="content">
+<img src="images/birth-cycle.jpg" alt="Birth cycle" width="900">
+</div>
+<div class="title">Figure 1. Birth cycle of honey bees</div>
+</div>
+<div class="paragraph">
+<p>&#160;<br></p>
+</div>
+<div class="paragraph">
+<p><strong>Egg</strong><br>
+The queen lays eggs in cells made of beeswax inside the hive. The queen determines the gender of the bee before she lays the egg by fertilizing it or not. If the egg is fertilized, it will be female. If it is unfertilized is will be male.
+The egg will develop within its shell for 3 days.</p>
+</div>
+<div class="paragraph">
+<p><strong>Larva</strong><br>
+The egg shell dissolves after 3 days, releasing the larva.
+Worker bees then immediately start feeding the larva.
+In the first three days of the larval stage, all larvae receive identical food;
+house bees add royal jelly to each cell containing larvae.<br></p>
+</div>
+<div class="paragraph">
+<p>From the third day of the larval stage, the bees marked to become worker bees have the
+quality and quantity of their food reduced; they receive a mixture of honey and pollen.
+This prevents the female bees from developing into queens.<br></p>
+</div>
+<div class="paragraph">
+<p>On the other hand, the royal jelly fed larvae develop the reproductive organs as well as
+the hormone and feromone producing glands necessary for their future rol as queen.
+They also mature faster than other bees.
+Because of their more nutritious diet, queen larvae are bigger than other bees and require more room.
+Which is why their cells are bigger than other bees: queen cells.</p>
+</div>
+<div class="paragraph">
+<p>During this period, the worker bee larva will grow more than 1500 times its size. When after 6 days the larva reaches its full size and stretches upright in the cell, the top of the cell is sealed with bees wax in preparation for pupation.</p>
+</div>
+<div class="paragraph">
+<p><strong>Pupa</strong><br>
+During this stage, the larva will shed its skins. Its eyes, legs and wings will develop along with the tiny hairs that cover the body.</p>
+</div>
+<div class="paragraph">
+<p><strong>Adult</strong><br>
+On average, queen bees emerge from the egg in a total of 16 days, workers in 21 days and drones in 24 days.</p>
+</div>
+<div class="paragraph">
+<p>The table below shows the development of the bee into an adult bee.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Bee development in days</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Egg (days)</th>
+<th class="tableblock halign-left valign-top">Larva (days)</th>
+<th class="tableblock halign-left valign-top">Pupae (days)</th>
+<th class="tableblock halign-left valign-top">Birth (days)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Queen</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Worker</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drone</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>D = Days, M = Months, Y = Years, W = Weeks.</p>
+</div>
+<div class="paragraph">
+<p>The table below shows the development of the bee into an adult bee, and it&#8217;s lifecycle afterwards.</p>
+</div>
+<div class="paragraph">
+<p>The queen after being born spends two days inside the hive to further develop fertility and dry her wings for flight.
+After mating flights for 7 up to 21 days, she starts laying eggs 2 to 4 days later.</p>
+</div>
+<div class="paragraph">
+<p>Drones require 12 up to 16 days to further develop fertility. They spend the rest of their life attempting
+to fertilize a queen from another colony.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. Bee lifecycle in days</caption>
+<colgroup>
+<col style="width: 4.1666%;">
+<col style="width: 8.3333%;">
+<col style="width: 8.3333%;">
+<col style="width: 12.5%;">
+<col style="width: 4.1666%;">
+<col style="width: 16.6666%;">
+<col style="width: 12.5%;">
+<col style="width: 12.5%;">
+<col style="width: 20.8336%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Egg (days)</th>
+<th class="tableblock halign-left valign-top">Larva (days)</th>
+<th class="tableblock halign-left valign-top">Pupae (days)</th>
+<th class="tableblock halign-left valign-top">Birth (days)</th>
+<th class="tableblock halign-left valign-top">Developing fertility (days)</th>
+<th class="tableblock halign-left valign-top">Mating flights (days)</th>
+<th class="tableblock halign-left valign-top">Laying eggs (days)</th>
+<th class="tableblock halign-left valign-top">Lifetime after birth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Queen</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<br>
+(1 - 3)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6<br>
+(4 - 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7<br>
+(10 - 16)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 .. 4<br>
+(18 .. 19 .. 20)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7 .. 21<br>
+(25 .. 41)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 .. 4<br>
+(27 .. 45)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 .. 5 Y<br>
+(degrading after 2 Y)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Worker</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<br>
+(1 - 3)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6<br>
+(4 - 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12<br>
+(10 - 21)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Summer: 49 (6 W)<br>
+Winter: up to 1 Y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drone</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<br>
+(1 - 3)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6<br>
+(4 - 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15<br>
+(10 - 24)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12 .. 16<br>
+(36 .. 40)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rest of lifetime</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30 .. 60</p></td>
+</tr>
+</tbody>
+</table>
 <div class="sect3">
 <h4 id="queen"><a class="anchor" href="#queen"></a><a class="link" href="#queen">4.1.1. Queen</a></h4>
 <div class="paragraph">
@@ -641,11 +849,36 @@ Mating flight takes place:</p>
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p><strong>Queen production</strong><br>
+Each colony only has one queen, but sometimes bees produce another one.
+This happens for a number of reasons.
+Such as:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>to replace a queen that has died or been injured,</p>
+</li>
+<li>
+<p>in preparation for swarming, or</p>
+</li>
+<li>
+<p>to replace the sick or aging, but still present queen.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>When a colony decides to replace an injured or aging queen, they never produce only one queen cell, but make as many as they can. The first thing the new queen does after emerging from her cell, is eliminating competition. She does this by chewing through the cells in which other queens are developing and stinging them to death.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="worker"><a class="anchor" href="#worker"></a><a class="link" href="#worker">4.1.2. Worker</a></h4>
+<div class="paragraph">
+<p>TODO</p>
+</div>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 1. Worker tasks indoor</caption>
+<caption class="title">Table 3. Worker tasks indoor</caption>
 <colgroup>
 <col style="width: 83.3333%;">
 <col style="width: 16.6667%;">
@@ -729,126 +962,15 @@ Mating flight takes place:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="life-cycle"><a class="anchor" href="#life-cycle"></a><a class="link" href="#life-cycle">4.2. Life cycle</a></h3>
-<div class="paragraph">
-<p>The bee goes through different phases in its life cycle: egg, larva, pupa, adult bee.</p>
-</div>
-<div id="img-birth-cylce" class="imageblock">
-<div class="content">
-<img src="images/birth-cycle.jpg" alt="Birth cycle" width="900">
-</div>
-<div class="title">Figure 1. Birth cycle of honey bees</div>
-</div>
-<div class="paragraph">
-<p>&#160;<br></p>
-</div>
-<div class="paragraph">
-<p><strong>Egg</strong><br>
-The queen lays eggs in cells made of beeswax inside the hive. The queen determines the gender of the bee before she lays the egg by fertilizing it or not. If the egg is fertilized, it will be female. If it is unfertilized is will me male.</p>
-</div>
-<div class="paragraph">
-<p><strong>Larva</strong><br>
-The egg hatches into a larva after 3 days. The worker bees ensure the larva is fed and looked after. During this period, the larva will grow more than 1500 times its size. When after 6 days the larva reaches its full size and stretches upright in the cell, the top of the cell is sealed with bees wax in preparation for pupation.</p>
-</div>
-<div class="paragraph">
-<p><strong>Pupa</strong><br>
-During this stage, the larva will shed its skins. Its eyes, legs and wings will develop along with the tiny hairs that cover the body.</p>
-</div>
-<div class="paragraph">
-<p><strong>Adult</strong><br>
-On average, queen bees emerge from the egg in a total of 16 days, workers in 21 days and drones in 24 days.</p>
-</div>
-<table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 2. Bee development in days</caption>
-<colgroup>
-<col style="width: 4.1666%;">
-<col style="width: 8.3333%;">
-<col style="width: 8.3333%;">
-<col style="width: 12.5%;">
-<col style="width: 4.1666%;">
-<col style="width: 16.6666%;">
-<col style="width: 12.5%;">
-<col style="width: 12.5%;">
-<col style="width: 20.8336%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Type</th>
-<th class="tableblock halign-left valign-top">Egg (days)</th>
-<th class="tableblock halign-left valign-top">Larva (days)</th>
-<th class="tableblock halign-left valign-top">Pupae (days)</th>
-<th class="tableblock halign-left valign-top">Birth (days)</th>
-<th class="tableblock halign-left valign-top">Developing fertility (days)</th>
-<th class="tableblock halign-left valign-top">Mating flights (days)</th>
-<th class="tableblock halign-left valign-top">Laying eggs (days)</th>
-<th class="tableblock halign-left valign-top">Lifetime after birth</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Queen</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3<br>
-(1 - 3)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">6<br>
-(4 - 9)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">7<br>
-(10 - 16)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2 .. 4<br>
-(18 .. 19 .. 20)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">7 .. 21<br>
-(25 .. 41)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2 .. 4<br>
-(27 .. 45)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 .. 5 Y<br>
-(degrading after 2 Y)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Worker</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3<br>
-(1 - 3)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">6<br>
-(4 - 9)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">12<br>
-(10 - 21)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Summer: 49 (6 W)<br>
-Winter: up to 1 Y</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3<br>
-(1 - 3)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">6<br>
-(4 - 9)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">15<br>
-(10 - 24)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">12 .. 16<br>
-(36 .. 40)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Rest of lifetime</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">30 .. 60</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>D = Days, M = Months, Y = Years, W = Weeks.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="communication"><a class="anchor" href="#communication"></a><a class="link" href="#communication">4.3. Communication</a></h3>
+<h3 id="communication"><a class="anchor" href="#communication"></a><a class="link" href="#communication">4.2. Communication</a></h3>
 <div class="sect3">
-<h4 id="dancing"><a class="anchor" href="#dancing"></a><a class="link" href="#dancing">4.3.1. Dancing</a></h4>
+<h4 id="dancing"><a class="anchor" href="#dancing"></a><a class="link" href="#dancing">4.2.1. Dancing</a></h4>
 <div class="paragraph">
 <p>Todo</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="pheromones"><a class="anchor" href="#pheromones"></a><a class="link" href="#pheromones">4.3.2. Pheromones</a></h4>
+<h4 id="pheromones"><a class="anchor" href="#pheromones"></a><a class="link" href="#pheromones">4.2.2. Pheromones</a></h4>
 <div class="paragraph">
 <p>Todo</p>
 </div>
@@ -878,13 +1000,13 @@ Winter: up to 1 Y</p></td>
 <div class="sect2">
 <h3 id="honey"><a class="anchor" href="#honey"></a><a class="link" href="#honey">5.2. Honey</a></h3>
 <div class="paragraph">
-<p>Honey is produced by bees who have collected nectar from vegetation or honeydew from other insects. Bees value honey for its sugars, which they consume to support general metabolic activity, especially that of their flight muscles during foraging, and as a food for their larvae. To this end bees stockpile honey to provide for themselves during ordinary foraging as well as during lean periods, as in overwintering.</p>
+<p>Honey is produced by bees who have collected nectar from vegetation or honeydew from other insects. Bees value honey for its sugars, which they consume to support general metabolic activity, especially that of their flight muscles during foraging, and as a food for their larvae. To this end bees stockpile honey to provide for themselves during ordinary foraging as well as during lean periods (dearths), as in overwintering.</p>
 </div>
 <div class="paragraph">
 <p>During foraging bees use part of the nectar they collect to power their flight muscles. The majority of nectar collected is not used to directly nourish the insects but is instead destined for regurgitation, enzymatic digestion, followed by long-term storage as honey in the nest.</p>
 </div>
 <div class="paragraph">
-<p>Nectar and honeydew consist out of sugar, water and trace elements like minerals. The processed honey is required to have a water content percentage that is low enough to prevent the honey from spoiling. By bees regurgitating the nectar, the water in it evaporates and the honey becomes more sugar-concentrated. Once the honey reaches a water percentage below 20 percent, the cell containing the honey is capped with a lid. Capping the honey with a lid prevents the hygroscopic honey from absorbing humidity in the air.</p>
+<p>Nectar and honeydew consist out of sugar, water and trace elements like minerals. The processed honey is required to have a water content percentage that is low enough to prevent the honey from spoiling. By bees regurgitating the nectar, the water in it evaporates and the honey becomes more sugar-concentrated. Once the honey reaches a water percentage below 20 percent, the cell containing the honey is capped with a lid. Capping the honey with a lid prevents the hygroscopic honey from absorbing humidity in the air, and spoilage.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1524,7 +1646,7 @@ Also referred to as queen cell splits<br></p>
 </ol>
 </div>
 <div class="sect2">
-<h3 id="split-preparation-queens-for-pennies"><a class="anchor" href="#split-preparation-queens-for-pennies"></a><a class="link" href="#split-preparation-queens-for-pennies">9.1. Split preparation: Queens for pennies</a></h3>
+<h3 id="queens-for-pennies"><a class="anchor" href="#queens-for-pennies"></a><a class="link" href="#queens-for-pennies">9.1. Queens for pennies</a></h3>
 <div class="paragraph">
 <p>TODO<br>
 See <a href="https://scientificbeekeeping.com/queens-for-pennies/" class="bare">https://scientificbeekeeping.com/queens-for-pennies/</a></p>
@@ -1532,9 +1654,12 @@ See <a href="https://scientificbeekeeping.com/queens-for-pennies/" class="bare">
 <div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
-<h3 id="split-five-frame-walk-away-split-with-queen-sweeper"><a class="anchor" href="#split-five-frame-walk-away-split-with-queen-sweeper"></a><a class="link" href="#split-five-frame-walk-away-split-with-queen-sweeper">9.2. Split: five frame walk away split - with queen (sweeper)</a></h3>
+<h3 id="walk-away-split-with-queen-5f"><a class="anchor" href="#walk-away-split-with-queen-5f"></a><a class="link" href="#walk-away-split-with-queen-5f">9.2. Walk away split with queen 5F</a></h3>
 <div class="paragraph">
-<p>With this split, the queen with young bees are moved to a new hive, that is placed a few meters away from the parent hive.<br>
+<p>In Dutch: veger met koningin.</p>
+</div>
+<div class="paragraph">
+<p>With this split, the queen with young bees are moved to a new hive with 5 frames, that is placed a few meters away from the parent hive.<br>
 The parent hive stays in the same location.<br></p>
 </div>
 <div class="paragraph">
@@ -1583,7 +1708,7 @@ Note that the queen does not mate with drones that are her own offspring.</p>
 <li>
 <p>Ensure availability on days where action is required.<br>
 After making the split, on specific days after the split one or more actions are required.
-The actions in <a href="#sweeper-queen-new-hive-id">Table 3, &#8220;Timetable summary for creating sweeper&#8221;</a> and <a href="#sweeper-queen-parent-id">Table 4, &#8220;Timetable summary for parent hive&#8221;</a>
+The actions in <a href="#sweeper-queen-new-hive-id">Table 4, &#8220;Timetable summary for creating sweeper&#8221;</a> and <a href="#sweeper-queen-parent-id">Table 5, &#8220;Timetable summary for parent hive&#8221;</a>
 need to be taken on those specific days,
 so it is good to ensure that your personal agenda has room to performs these actions.</p>
 </li>
@@ -1603,7 +1728,7 @@ Having these things on hand makes the work easier and go much faster.</p>
 <div class="content">
 <img src="images/veger-cursus.png" alt="Veger cursus" width="900">
 </div>
-<div class="title">Figure 17. Veger - cursus (front view)</div>
+<div class="title">Figure 17. Walk away split with queen (front view)</div>
 </div>
 <div class="paragraph">
 <p>&#160;<br></p>
@@ -1612,7 +1737,7 @@ Having these things on hand makes the work easier and go much faster.</p>
 <p><strong>Steps for creating sweeper:</strong></p>
 </div>
 <table id="sweeper-queen-new-hive-id" class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 3. Timetable summary for creating sweeper</caption>
+<caption class="title">Table 4. Timetable summary for creating sweeper</caption>
 <colgroup>
 <col style="width: 6.25%;">
 <col style="width: 93.75%;">
@@ -1647,7 +1772,7 @@ Having these things on hand makes the work easier and go much faster.</p>
 <div class="content">
 <img src="images/veger-cursus-new-hive.png" alt="Veger hive" width="300">
 </div>
-<div class="title">Figure 18. Veger - new hive (front view)</div>
+<div class="title">Figure 18. Split - new hive (front view)</div>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1760,7 +1885,7 @@ After the queen is removed, the workers left behind quickly notice they have los
 will begin raising new queens in emergency cells placed throughout the frames, often within 4 - 12 hours.</p>
 </div>
 <table id="sweeper-queen-parent-id" class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 4. Timetable summary for parent hive</caption>
+<caption class="title">Table 5. Timetable summary for parent hive</caption>
 <colgroup>
 <col style="width: 11.7647%;">
 <col style="width: 88.2353%;">
@@ -1846,7 +1971,7 @@ the other queen, before the workers force her out of the hive in a swarm.</p>
 <p>Create another three frame queen nuc.<br>
 In some cases, there is enough food, queens cells and bees remaining in the parent hive for another split.
 In that case, instead of destroying queen cells, (some of) those queen cells can be moved to a small queen cell nuc.<br>
-See <a href="#split-three-frame-swarm-control-split-with-queen-cells">Section 9.5, &#8220;Split: Three frame swarm control split - with queen cells&#8221;</a> on how to make such a split.</p>
+See <a href="#swarm-control-split-3f">Section 9.5, &#8220;Swarm control split 3F&#8221;</a> on how to make such a split.</p>
 </li>
 </ul>
 </div>
@@ -1878,9 +2003,12 @@ Oxalic acid dribble kills mites for roughly 3 days after application.</p>
 <div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
-<h3 id="split-five-frame-walk-away-split-with-queen-cell-sweeper"><a class="anchor" href="#split-five-frame-walk-away-split-with-queen-cell-sweeper"></a><a class="link" href="#split-five-frame-walk-away-split-with-queen-cell-sweeper">9.3. Split: five frame walk away split - with queen cell (sweeper)</a></h3>
+<h3 id="walk-away-split-with-queen-cell-5f"><a class="anchor" href="#walk-away-split-with-queen-cell-5f"></a><a class="link" href="#walk-away-split-with-queen-cell-5f">9.3. Walk away split with queen cell 5F</a></h3>
 <div class="paragraph">
-<p>This split is very similar to <a href="#split-five-frame-walk-away-split-with-queen-sweeper">Section 9.2, &#8220;Split: five frame walk away split - with queen (sweeper)&#8221;</a>.
+<p>In Dutch: veger met koninginnen-dop.</p>
+</div>
+<div class="paragraph">
+<p>This split is very similar to <a href="#walk-away-split-with-queen-5f">Section 9.2, &#8220;Walk away split with queen 5F&#8221;</a>.
 It is different in that not the queen is moved to the new hive, but one or more queen cells from the parent hive.
 This has the advantage over a split with a queen that the new queen could be laying within 10-12 days
 instead of ±27 days. That is a smaller brood break, which results in a more populous colony once the
@@ -1917,7 +2045,7 @@ Nighttime temperatures must be fairly moderate to avoid chilled brood.</p>
 <li>
 <p>Ensure availability on days where action is required.<br>
 After making the split, on specific days after the split one or more actions are required.
-The actions in <a href="#sweeper-queen-cell-new-hive-id">Table 5, &#8220;Timetable summary for creating sweeper with queen cell&#8221;</a> need to be taken on those specific days,
+The actions in <a href="#sweeper-queen-cell-new-hive-id">Table 6, &#8220;Timetable summary for creating sweeper with queen cell&#8221;</a> need to be taken on those specific days,
 so it is good to ensure that your personal agenda has room to performs these actions.</p>
 </li>
 <li>
@@ -1946,7 +2074,7 @@ See <a href="#different-types-of-queen-cells">Chapter 10, <em>Different types of
 <div class="content">
 <img src="images/veger-queen-cell.png" alt="Veger queen cell" width="900">
 </div>
-<div class="title">Figure 19. Veger - queen cell (front view)</div>
+<div class="title">Figure 19. Walk away split with queen cell (front view)</div>
 </div>
 <div class="paragraph">
 <p>&#160;<br></p>
@@ -1955,7 +2083,7 @@ See <a href="#different-types-of-queen-cells">Chapter 10, <em>Different types of
 <p><strong>Steps for creating sweeper:</strong></p>
 </div>
 <table id="sweeper-queen-cell-new-hive-id" class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 5. Timetable summary for creating sweeper with queen cell</caption>
+<caption class="title">Table 6. Timetable summary for creating sweeper with queen cell</caption>
 <colgroup>
 <col style="width: 6.25%;">
 <col style="width: 93.75%;">
@@ -2162,7 +2290,10 @@ Oxalic acid dribble kills mites for roughly 3 days after application.</p>
 <div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
-<h3 id="split-five-frame-cut-down-split-with-queen-flyer"><a class="anchor" href="#split-five-frame-cut-down-split-with-queen-flyer"></a><a class="link" href="#split-five-frame-cut-down-split-with-queen-flyer">9.4. Split: five frame cut down split - with queen (flyer)</a></h3>
+<h3 id="cut-down-split-with-queen-5f"><a class="anchor" href="#cut-down-split-with-queen-5f"></a><a class="link" href="#cut-down-split-with-queen-5f">9.4. Cut down split with queen 5F</a></h3>
+<div class="paragraph">
+<p>In Dutch: vlieger</p>
+</div>
 <div class="paragraph">
 <p>A cut-down split is a special technique often used by comb honey producers.
 The purpose of a cut-down split is to maximize the number of foragers that are bringing in nectar by minimizing the amount of brood a colony has to care for.
@@ -2227,7 +2358,7 @@ Nighttime temperatures must be fairly moderate to avoid chilled brood.</p>
 <li>
 <p>Ensure availability on days where action is required.<br>
 After making the split, on specific days after the split one or more actions are required.
-The actions in <a href="#flyer-queen-new-hive-id">Table 6, &#8220;Timetable summary for creating flyer&#8221;</a> need to be taken on those specific days,
+The actions in <a href="#flyer-queen-new-hive-id">Table 7, &#8220;Timetable summary for creating flyer&#8221;</a> need to be taken on those specific days,
 so it is good to ensure that your personal agenda has room to performs these actions.</p>
 </li>
 <li>
@@ -2253,7 +2384,7 @@ If there is no nectar to forage, this split will not be as succesful.</p>
 <div class="content">
 <img src="images/vlieger-cursus.png" alt="Flyer cursus" width="900">
 </div>
-<div class="title">Figure 21. Flyer - cursus (front view)</div>
+<div class="title">Figure 21. Cut down split with queen (front view)</div>
 </div>
 <div class="paragraph">
 <p>&#160;<br></p>
@@ -2262,7 +2393,7 @@ If there is no nectar to forage, this split will not be as succesful.</p>
 <p><strong>Steps for creating flyer:</strong></p>
 </div>
 <table id="flyer-queen-new-hive-id" class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 6. Timetable summary for creating flyer</caption>
+<caption class="title">Table 7. Timetable summary for creating flyer</caption>
 <colgroup>
 <col style="width: 6.25%;">
 <col style="width: 93.75%;">
@@ -2339,17 +2470,17 @@ That, combined with the already abundant amount of foragers flying back from the
 It will raise a new queen from the eggs, but by the time the colony is strong, swarm season will be mostly over.</p>
 </div>
 <div class="paragraph">
-<p>See the same steps in <a href="#split-five-frame-walk-away-split-with-queen-sweeper">Section 9.2, &#8220;Split: five frame walk away split - with queen (sweeper)&#8221;</a> for the parent hive.</p>
+<p>See the same steps in <a href="#walk-away-split-with-queen-5f">Section 9.2, &#8220;Walk away split with queen 5F&#8221;</a> for the parent hive.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
-<h3 id="split-three-frame-swarm-control-split-with-queen-cells"><a class="anchor" href="#split-three-frame-swarm-control-split-with-queen-cells"></a><a class="link" href="#split-three-frame-swarm-control-split-with-queen-cells">9.5. Split: Three frame swarm control split - with queen cells</a></h3>
+<h3 id="swarm-control-split-3f"><a class="anchor" href="#swarm-control-split-3f"></a><a class="link" href="#swarm-control-split-3f">9.5. Swarm control split 3F</a></h3>
 <div class="paragraph">
-<p>In Dutch: doppen aflegger.</p>
+<p>In Dutch: doppen-aflegger.</p>
 </div>
 <div class="paragraph">
-<p>This split is similar to <a href="#split-five-frame-walk-away-split-with-queen-sweeper">Section 9.2, &#8220;Split: five frame walk away split - with queen (sweeper)&#8221;</a>. It is different in that not the queen is moved to the new hive, but one or more queen cells are moved from the parent hive to the new hive. This has the advantage (over a split with a queen) that the new queen could be laying within 10-12 days instead of ±27 days. That is a smaller brood break, which results in a more populous colony once the main nectar flow starts.</p>
+<p>This split is similar to <a href="#walk-away-split-with-queen-5f">Section 9.2, &#8220;Walk away split with queen 5F&#8221;</a>. It is different in that not the queen is moved to the new hive, but one or more queen cells are moved from the parent hive to the new hive. This has the advantage (over a split with a queen) that the new queen could be laying within 10-12 days instead of ±27 days. That is a smaller brood break, which results in a more populous colony once the main nectar flow starts.</p>
 </div>
 <div class="paragraph">
 <p>Since the hive contains only three frames, it is too small for the colony to swarm. So even when multiple queens emerge simultaneously, they
@@ -2386,7 +2517,7 @@ Nighttime temperatures must be fairly moderate to avoid chilled brood.</p>
 <li>
 <p>Ensure availability on days where action is required.<br>
 After making the split, on specific days after the split one or more actions are required.
-The actions in <a href="#sweeper-3-frame-queen-new-hive-id">Table 7, &#8220;Three frame swarm control split - with queen cells&#8221;</a> need to be taken on
+The actions in <a href="#sweeper-3-frame-queen-new-hive-id">Table 8, &#8220;Three frame swarm control split - with queen cells&#8221;</a> need to be taken on
 those specific days, so it is good to ensure that your personal agenda has room to performs these actions.</p>
 </li>
 <li>
@@ -2415,13 +2546,13 @@ See <a href="#different-types-of-queen-cells">Chapter 10, <em>Different types of
 <div class="content">
 <img src="images/doppenaflegger-cursus.png" alt="Doppen aflegger cursus" width="900">
 </div>
-<div class="title">Figure 23. Three frame swarm control split - with queen cells (front view)</div>
+<div class="title">Figure 23. Swarm control split with queen cells (front view)</div>
 </div>
 <div class="paragraph">
 <p><strong>Steps for 3 frame split:</strong></p>
 </div>
 <table id="sweeper-3-frame-queen-new-hive-id" class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 7. Three frame swarm control split - with queen cells</caption>
+<caption class="title">Table 8. Three frame swarm control split - with queen cells</caption>
 <colgroup>
 <col style="width: 6.25%;">
 <col style="width: 93.75%;">
@@ -2609,7 +2740,7 @@ reaches most or all of the mites.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="single-brood-chamber-vs-multiple-brood-chambers"><a class="anchor" href="#single-brood-chamber-vs-multiple-brood-chambers"></a><a class="link" href="#single-brood-chamber-vs-multiple-brood-chambers">11. Single brood chamber vs multiple brood chambers</a></h2>
+<h2 id="single-brood-chamber-method"><a class="anchor" href="#single-brood-chamber-method"></a><a class="link" href="#single-brood-chamber-method">11. Single brood chamber method</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In this practice, the colony is managed in a single deep brood chamber, instead of in multiple brood chambers.
@@ -2843,19 +2974,54 @@ afgerond moet zijn.</pre>
 <div class="sect1">
 <h2 id="feeding"><a class="anchor" href="#feeding"></a><a class="link" href="#feeding">13. Feeding</a></h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>TODO</p>
+</div>
 <div class="sect2">
 <h3 id="sugar-syrup-11"><a class="anchor" href="#sugar-syrup-11"></a><a class="link" href="#sugar-syrup-11">13.1. Sugar syrup 1:1</a></h3>
 <div class="paragraph">
-<p>1 liter water, 1 kilo sugar</p>
+<p>This yields a thin sucrose solution which gets the queen laying eggs and worker bees to build comb.
+Workers typically don’t build comb unless nectar is coming in, which this thin sugar solution mimics.
+Thick syrup requires bees to hydrate it first, and does not stimulate them to build comb.</p>
+</div>
+<div class="paragraph">
+<p>Instructions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Bring 1 liter water to a boil</p>
+</li>
+<li>
+<p>Let it cool down to less than 50 degrees C</p>
+</li>
+<li>
+<p>Slowly pour in 1 kilo sugar while stirring</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
 <h3 id="sugar-syrup-12"><a class="anchor" href="#sugar-syrup-12"></a><a class="link" href="#sugar-syrup-12">13.2. Sugar syrup 1:2</a></h3>
 <div class="paragraph">
-<p>1 liter water, 2 kilo sugar</p>
+<p>This yields a thicker sucrose solution which requires less effort from the bees to dehydrate it down for the winter.
+It is the syrup recommended for fall feeding.</p>
 </div>
 <div class="paragraph">
-<p>Provides a thicker syrup that requires less effort from the bees to dehydrate it down for the winter and is the ratio recommended for fall feeding.</p>
+<p>Instructions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Bring 1 liter water to a boil</p>
+</li>
+<li>
+<p>Let it cool down to less than 50 degrees C</p>
+</li>
+<li>
+<p>Slowly pour in 2 kilo&#8217;s of sugar while stirring</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -2863,7 +3029,7 @@ afgerond moet zijn.</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-05-22 21:54:09 +0200
+Last updated 2025-05-27 22:20:17 +0200
 </div>
 </div>
 </body>
